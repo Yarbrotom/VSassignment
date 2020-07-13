@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Aluminum Foil</h1>
+        <p>by Wierd Al</p>
+        <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/urglg3WimHA" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        <br />
+        <button onclick="myMove()">Click to scroll</button>
+        <div id="container">
+            <div id="animate"></div>
+        </div>
+</div>
